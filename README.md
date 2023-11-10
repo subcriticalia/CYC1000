@@ -37,6 +37,10 @@ More than 100 units of prototypes were realized in diferent form factors, but re
 
 6.- Give a MULTICOMP structure, that's make the implementation only FPGAish if desired.
 
+ATLAS I/O BOARD:
+
+https://oshwlab.com/subcritical/carrier_io_board_atlas_mini_copy#P3
+
 
 # PROYECTO ATLAS
 
