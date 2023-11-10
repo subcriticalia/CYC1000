@@ -23,7 +23,7 @@ With the information we probided in this proyect, has been proven, that only wit
 We Justify the reation of this I/O Board ATLAS, because were a shortage of components in the previos years, an we want to incorporate all the features inside the fpga choosen.
 The use of USB-DIRECT is at early stages so more future implementations, will come, until now the only I/O Board that uses K1 & L1 in cyc1000 to create a pull down -> USB, that makes that all the characteristics in pinout of the CYC1000 were use.
 
-More than 100  prototipes were realized in diferent form factors, but remain the same scheme, so the main think line is.
+More than 100 units of prototypes were realized in diferent form factors, but remain the same scheme, so the main think line is.
 
 1.- Not to use any component that uses chips.
 
