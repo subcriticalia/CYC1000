@@ -16,7 +16,7 @@ https://ohwr.org/cern_ohl_s_v2.txt
 The object of this mostly 3 year proyect, is to give some new features to fpga users, in the use of microfpgas, we focuselly at first in "CYC1000" & "MAX1000", and with the price and belonging to FPGAWARS the "Tang nano 9k".
 We focuses in creating documentation and sources, in order to provide only information about the I/O Board ATLAS, the cores most of there where ported in order to learn mainly hardware descriptor languages:
 the most, The Verilog language, and VHDL language.
-We focuses also porting some retrocores to This inexpensive I/O Board ATLAS, because in the initial design we decided not to use any chip, only transistors, resistors or capacitors. 
+We focuses also porting some retrocores to This inexpensive I/O Board ATLAS, because in the initial design we decided not to use any chip, only transistors/diodes, resistors or capacitors. 
 Making ideal to be reproduced.
 
 With the information we provided in this proyect, has been proven that could be reproduced The I/O Board ATLAS with or without multicore solution, in all over the world "Trust us!", there are relocators and fpgas/microcontrollers you can use.
