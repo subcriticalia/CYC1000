@@ -1,3 +1,27 @@
+# PROYECT ATLAS
+This is the more versatile MULTICOMP available nowadays, and one of the cheapest also, that's great because when you learn touching a bunch of electronics some time, you burn something.
+At the first time of the proyect nearly 3 years ago, the cost of the CYC1000 was only 18€, now a days more than doubled this cost :-(
+
+This proyect aims to use a strong open hardware license, CERN OPEN HARDWARE LICENSE VERSION II STRICT:
+https://ohwr.org/cern_ohl_s_v2.txt
+
+The object of this mostly 3 year proyect, is to give some new features to fpga users, in the use of microfpgas, we focuselly at first in "CYC1000" "MAX1000", and with the price and belonging to FPGAWARS "Tang nano 9k".
+We focuses in creating documentation and sources, in order to provide only information about the I/O Board ATLAS, the cores most of them where ported in order to learn mainly hardware descriptior languagles:
+the most, The Verilog language, and VHDL language.
+We focuses also porting some retrocores to This inexpensive I/O Board, because in the initial design we decided not to use any chip, only transistors, resistors or capacitors. 
+Making ideal to be reproduced.
+
+With the information we probided in this proyect, has been proven, that only with the information provided, could be reproduced The I/O Board ATLAS in all the world, their relocators and the fpgas/microcontrollers we want to use.
+
+More than 100  prototipes were realized in diferent form factors, but remain the same scheme, so the main think line is.
+1.- Not to use any component that uses chips.
+2.- Give as much funcionality as posible like USB-DIRECT & DIGITAL-VIDEO.
+3.- Sound using DIGITAL-VIDEO & Deltasigma-Stereo
+4.- Proportion of a SD with SPI and SIO capabilities, that is given 4 bits for data.
+We Justify the reation of this I/O Board ATLAS, because were a shortage of components in the previos years, an we want to incorporate all the features inside the fpga choosen.
+The use of USB-DIRECT is at early stages so more future implementations, will come, until now the only I/O Board that uses K1 & L1 in cyc1000 to create a pull down -> USB, that makes that all the characteristics in pinout of the CYC1000 were use.
+5.- Maintain a bus with 6 signals in the common bus 2x20 form standarized by rasperry pi.
+6.- Give a MULTICOMP structure, that's make the implementation only FPGAish if desired.
 
 
 # PROYECTO ATLAS
@@ -84,17 +108,20 @@ Nota: vamos a trabajar desde el directorio /home/pi que es el que aparece por de
 
 
 
-### **Reloj adicional de 50 Mhz:**
+### **Reloj adicional de 50 Mhz:** en estados muy iniciales del uso de la placa CYC1000 en la I/O Board ATLAS
 
-La placa CYC1000 dispone de un reloj de 12 Mhz. Algunos cores necesitan de un reloj adicional de 50 MHz a soldar en el espacio que se ve en la siguiente [foto](http://www.forofpga.es/viewtopic.php?f=240&t=390).
+La placa CYC1000 dispone de un reloj de 12 Mhz. En un principio se usó un segundo reloj a 50Mhz, pero en la actualidad todos los cores funcionan con el reloj de serie de 12Mhz.
+[foto](http://www.forofpga.es/viewtopic.php?f=240&t=390).
 
-Dónde conseguir el reloj:
+Si sería interesante en un futuro dejar libre este relój para incorporar un pll externo tipo SI5351.
+Para los que aún les interese conseguir el reloj de 50Mhz pueden pedirlo:
 
 * [Arrow](https://www.arrow.com/en/products/ecs-2520mv-500-bn-tr/ecs-international?q=ECS-2520MV-500-BN-TR)
 
-Listado de cores que van a 50 MHz:
+EL primer core que fué usado con un rejog de 50 MHz fué el core de MSX1, pero la implementación del mismo con un relój de 12Mhz es totalmente válida:
 
 * MSX1 
+Estamos hablando de hace aproximadamente 3 años, al inicio de la primera tirada de placas I/O Board ATLAS para desarrollo.
 
 ### **Colaboraciones:**
 
@@ -102,7 +129,7 @@ Se necesita la [colaboración](https://github.com/SoCFPGA-learning/General/tree/
 
 ### Comunidad:
 
-* [Cyc1000 Atlas telegram group](https://t.me/CYC1000) (Spanish)
+* [Cyc1000 Atlas Anouncements](https://t.me/CYC1000) (Spanish/English)
 * [Atlas FPGA international telegram group](https://t.me/ATLASFPGA) (English)
 * [Discord channel](https://discord.gg/YDdmtwh) 
 
