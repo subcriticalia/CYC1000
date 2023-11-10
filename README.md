@@ -19,9 +19,9 @@ the most, The Verilog language, and VHDL language.
 We focuses also porting some retrocores to This inexpensive I/O Board ATLAS, because in the initial design we decided not to use any chip, only transistors, resistors or capacitors. 
 Making ideal to be reproduced.
 
-With the information we provided in this proyect, has been proven,could be reproduced The I/O Board ATLAS with or without multicore solution, in all the world "Trust us!", their relocators and the fpgas/microcontrollers you want to use.
-We Justify the creation of this I/O Board ATLAS, because were a nastly shortage of components in the previous years, an we want to incorporate all the features inside the fpga choosen.
-For example, the use of USB-DIRECT is at early stages so more future implementations, will come, until now the only I/O Board that uses K1 & L1 in cyc1000 to create a pull down -> USB, that makes that all the characteristics in pinout of the CYC1000 were use is the ATLAS's one.
+With the information we provided in this proyect, has been proven that could be reproduced The I/O Board ATLAS with or without multicore solution, in all over the world "Trust us!", there are relocators and fpgas/microcontrollers you can use.
+We Justify the birth of this I/O Board ATLAS, because were a nastly shortage of components in the previous years, an we want to incorporate all the features inside the fpga choosen 25KLes at the lowest cost.
+For example, the use of USB-DIRECT, it is at early stages, more future implementations will come, until now the only I/O Board that uses K1 & L1 in cyc1000 to create a pull down providing USB, is the ATLAS's one.
 
 More than 100 units of prototypes were realized in diferent form factors, but remain the same scheme, so the main think line is.
 
