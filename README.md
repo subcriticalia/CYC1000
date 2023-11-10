@@ -1,30 +1,33 @@
 # PROYECT ATLAS
-This is the more versatile MULTICOMP available nowadays, and one of the cheapest also, that's great because when you learn touching a bunch of electronics some time, you burn something.
-At the first time of the proyect nearly 3 years ago, the cost of the CYC1000 was only 18€, now a days more than doubled this cost :-(
+This is the more versatile MULTICOMP available nowadays, and one of the cheapest also, that's great because when you learn touching a bunch of electronics some time, sometimes burns something.
+At the first time of the proyect nearly 3 years ago, the cost of the CYC1000 was only 18€, nowadays more than doubled this cost :-(
 
 This proyect aims to use a strong open hardware license, CERN OPEN HARDWARE LICENSE VERSION II STRICT:
+
 https://ohwr.org/cern_ohl_s_v2.txt
+
+
 #Last prototype with RP2040:
 
 ![Last prototype joy view](https://github.com/AtlasFPGA/CYC1000/blob/main/FOTOS/Ultimo_prototipo_RP2040DB9.JPG)
 
 ![Las prototype video view](https://github.com/AtlasFPGA/CYC1000/blob/main/FOTOS/Ultimo_prototipo_RP2040VIDEO.JPG)
 
-The object of this mostly 3 year proyect, is to give some new features to fpga users, in the use of microfpgas, we focuselly at first in "CYC1000" "MAX1000", and with the price and belonging to FPGAWARS "Tang nano 9k".
-We focuses in creating documentation and sources, in order to provide only information about the I/O Board ATLAS, the cores most of them where ported in order to learn mainly hardware descriptior languagles:
+The object of this mostly 3 year proyect, is to give some new features to fpga users, in the use of microfpgas, we focuselly at first in "CYC1000" & "MAX1000", and with the price and belonging to FPGAWARS the "Tang nano 9k".
+We focuses in creating documentation and sources, in order to provide only information about the I/O Board ATLAS, the cores most of there where ported in order to learn mainly hardware descriptor languages:
 the most, The Verilog language, and VHDL language.
-We focuses also porting some retrocores to This inexpensive I/O Board, because in the initial design we decided not to use any chip, only transistors, resistors or capacitors. 
+We focuses also porting some retrocores to This inexpensive I/O Board ATLAS, because in the initial design we decided not to use any chip, only transistors, resistors or capacitors. 
 Making ideal to be reproduced.
 
-With the information we probided in this proyect, has been proven, that only with the information provided, could be reproduced The I/O Board ATLAS in all the world, their relocators and the fpgas/microcontrollers we want to use.
+With the information we probided in this proyect, has been proven, that only with the information provided, could be reproduced The I/O Board ATLAS in all the world "Trust us!", their relocators and the fpgas/microcontrollers they want to use.
+We Justify the reation of this I/O Board ATLAS, because were a shortage of components in the previos years, an we want to incorporate all the features inside the fpga choosen.
+The use of USB-DIRECT is at early stages so more future implementations, will come, until now the only I/O Board that uses K1 & L1 in cyc1000 to create a pull down -> USB, that makes that all the characteristics in pinout of the CYC1000 were use.
 
 More than 100  prototipes were realized in diferent form factors, but remain the same scheme, so the main think line is.
 1.- Not to use any component that uses chips.
 2.- Give as much funcionality as posible like USB-DIRECT & DIGITAL-VIDEO.
 3.- Sound using DIGITAL-VIDEO & Deltasigma-Stereo
 4.- Proportion of a SD with SPI and SIO capabilities, that is given 4 bits for data.
-We Justify the reation of this I/O Board ATLAS, because were a shortage of components in the previos years, an we want to incorporate all the features inside the fpga choosen.
-The use of USB-DIRECT is at early stages so more future implementations, will come, until now the only I/O Board that uses K1 & L1 in cyc1000 to create a pull down -> USB, that makes that all the characteristics in pinout of the CYC1000 were use.
 5.- Maintain a bus with 6 signals in the common bus 2x20 form standarized by rasperry pi.
 6.- Give a MULTICOMP structure, that's make the implementation only FPGAish if desired.
 
