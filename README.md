@@ -24,11 +24,17 @@ We Justify the reation of this I/O Board ATLAS, because were a shortage of compo
 The use of USB-DIRECT is at early stages so more future implementations, will come, until now the only I/O Board that uses K1 & L1 in cyc1000 to create a pull down -> USB, that makes that all the characteristics in pinout of the CYC1000 were use.
 
 More than 100  prototipes were realized in diferent form factors, but remain the same scheme, so the main think line is.
+
 1.- Not to use any component that uses chips.
+
 2.- Give as much funcionality as posible like USB-DIRECT & DIGITAL-VIDEO.
+
 3.- Sound using DIGITAL-VIDEO & Deltasigma-Stereo
+
 4.- Proportion of a SD with SPI and SIO capabilities, that is given 4 bits for data.
+
 5.- Maintain a bus with 6 signals in the common bus 2x20 form standarized by rasperry pi.
+
 6.- Give a MULTICOMP structure, that's make the implementation only FPGAish if desired.
 
 
