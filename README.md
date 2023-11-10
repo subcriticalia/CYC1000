@@ -19,9 +19,9 @@ the most, The Verilog language, and VHDL language.
 We focuses also porting some retrocores to This inexpensive I/O Board ATLAS, because in the initial design we decided not to use any chip, only transistors, resistors or capacitors. 
 Making ideal to be reproduced.
 
-With the information we probided in this proyect, has been proven, that only with the information provided, could be reproduced The I/O Board ATLAS in all the world "Trust us!", their relocators and the fpgas/microcontrollers they want to use.
-We Justify the reation of this I/O Board ATLAS, because were a shortage of components in the previos years, an we want to incorporate all the features inside the fpga choosen.
-The use of USB-DIRECT is at early stages so more future implementations, will come, until now the only I/O Board that uses K1 & L1 in cyc1000 to create a pull down -> USB, that makes that all the characteristics in pinout of the CYC1000 were use.
+With the information we probided in this proyect, has been proven, that only with the information provided, could be reproduced The I/O Board ATLAS in all the world "Trust us!", their relocators and the fpgas/microcontrollers you want to use.
+We Justify the creation of this I/O Board ATLAS, because were a shortage of components in the previos years, an we want to incorporate all the features inside the fpga choosen.
+For example, the use of USB-DIRECT is at early stages so more future implementations, will come, until now the only I/O Board that uses K1 & L1 in cyc1000 to create a pull down -> USB, that makes that all the characteristics in pinout of the CYC1000 were use is the ATLAS one.
 
 More than 100 units of prototypes were realized in diferent form factors, but remain the same scheme, so the main think line is.
 
@@ -31,9 +31,9 @@ More than 100 units of prototypes were realized in diferent form factors, but re
 
 3.- Sound using DIGITAL-VIDEO & Deltasigma-Stereo
 
-4.- Proportion of a SD with SPI and SIO capabilities, that is given 4 bits for data.
+4.- Proportion of an SD with SPI and SIO capabilities, that is given 4 bits for data.
 
-5.- Maintain a bus with 6 signals in the common bus 2x20 form standarized by rasperry pi.
+5.- Maintain a bus with 6 signals in the common bus 2x20 form standarized by Rasperry PI.
 
 6.- Give a MULTICOMP structure, that's make the implementation only FPGAish if desired.
 
