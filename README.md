@@ -1,5 +1,5 @@
 # PROYECT ATLAS
-This is the morst versatile MULTICOMP available nowadays, and one of the cheapest also, that's great because when you learn touching a bunch of electronics some time, sometimes burns something.
+This is the most versatile MULTICOMP available nowadays, and one of the cheapest also, that's great because when you learn touching a bunch of electronics some time, sometimes burns something.
 At the first time of the proyect nearly 3 years ago, the cost of the CYC1000 was only 18€, nowadays more than doubled this cost :-(
 
 This proyect aims to use a strong open hardware license, CERN OPEN HARDWARE LICENSE VERSION II STRICT:
