@@ -1,0 +1,1 @@
+aquí se alojarán los dicheros que reconfiguran la fpga cyc1000 teniendo en cuenta el diseño de la I/O Board ATLAS.
