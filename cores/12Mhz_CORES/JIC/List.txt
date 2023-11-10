@@ -1,0 +1,1 @@
+List of cores in the I/O Board ATLAS with the side of 2Mbytes initially:
