@@ -15,14 +15,16 @@ https://ohwr.org/cern_ohl_s_v2.txt
 ![Last prototype video view](https://github.com/AtlasFPGA/CYC1000/blob/main/FOTOS/Placa_RP2040-PiZero-P1040166.JPG)
 
 The object of this mostly 3 year proyect, is to give some new features to fpga users, in the use of microfpgas, we focuselly at first in "CYC1000" & "MAX1000", and with the price and belonging to FPGAWARS the "Tang nano 9k".
-We focuses in creating documentation and sources, in order to provide only information about the I/O Board ATLAS, the cores most of there where ported in order to learn mainly hardware descriptor languages:
+We focuses in creating documentation and sources, in order to provide only information using The I/O Board ATLAS, the cores most of them where ported in order to learn mainly hardware descriptor languages:
+
 the most, The Verilog language, and VHDL language.
-We focuses also porting some retrocores to This inexpensive I/O Board ATLAS, because in the initial design we decided not to use any chip, only transistors/diodes, resistors or capacitors. 
+
+We focuses also porting some retrocores to This inexpensive I/O Board ATLAS, because in the initial design we decided not to use any chip, only transistors/diodes, resistors or capacitors and ofcourse several I/O Ports. 
 Making ideal to be reproduced.
 
-With the information we provided in this project, has been proven that it could be reproduced, "The I/O Board ATLAS" with or without multicore solution, in all over the world "Trust us!", there are relocators and fpgas/microcontrollers you can use.
-We Justify the birth of this I/O Board ATLAS, because were a nastly shortage of components in the previous years, an we want to incorporate all the features inside the fpga choosen the cyclone used in CYC1000 give 25KLes at the lowest cost.
-For example, the use of USB-DIRECT, it is at early stages, more future implementations will come, until now the only I/O Board that uses K1 & L1 in cyc1000 to create a pull down providing USB, is the ATLAS's one.
+With the information provided in this project, has been proven that it could be reproduced, "The I/O Board ATLAS" with or without multicore solution, in all over the world "Trust us!", there are relocators and fpgas/microcontrollers you can use, with the pass of the time more support is going to be added.
+We Justify the birth of this I/O Board ATLAS in the first month of 2020, because were a nastly shortage of components in the previous years, an we want to incorporate all the features inside the fpga choosen, at first was the cyclone used in CYC1000 that gives 25KLes and 66 blocks of 9Kbits of BRAM at the lowest cost.
+For example, the use of USB-DIRECT, it is at early stages only is implemented in a version of the VIC20 core, more future implementations will come, until now the only I/O Board that uses K1 & L1 pins in cyc1000 to create a pull down providing USB, is the ATLAS's one.
 
 More than 100 units of prototypes were realized in diferent form factors, but remain the same scheme, so the main think line is.
 
@@ -30,15 +32,15 @@ More than 100 units of prototypes were realized in diferent form factors, but re
 
 2.- Give as much funcionality as posible like USB-DIRECT & DIGITAL-VIDEO.
 
-3.- Sound using DIGITAL-VIDEO & Deltasigma-Stereo
+3.- Sound using DIGITAL-VIDEO & Deltasigma-Stereo.
 
 4.- Proportion of an SD with SPI and SIO capabilities, that is given 4 bits for data.
 
-5.- Maintain a bus with 6 signals in the common bus 2x20 form standarized by Rasperry PI.
+5.- Maintain a bus with 6 signals in the common bus 2x20 form, standarized by Rasperry PI.
 
-6.- Give a MULTICOMP structure, that's make the implementation only FPGAish if desired.
+6.- Give a MULTICOMP structure, that's make the implementation only FPGAish posible if desired.
 
-ATLAS I/O BOARD:
+The ATLAS I/O BOARD is also in the open hardware database oshwlab:
 
 https://oshwlab.com/subcritical/carrier_io_board_atlas_mini_copy#P3
 
