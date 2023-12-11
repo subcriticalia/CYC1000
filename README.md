@@ -2,6 +2,10 @@
 We think that this is one of the most versatile MULTICOMP available nowadays, and one of the cheapest also, that's great because when you learn touching a bunch of electronics sometimes burns something...
 At the first time of the proyect nearly 3 years ago, the cost of the CYC1000 was only 18€, nowadays more than doubled this cost :-(
 
+Group ATLAS in Telegram:
+https://t.me/INICIATIVAATLAS
+
+
 This proyect aims to use a strong open hardware license, CERN OPEN HARDWARE LICENSE VERSION II STRICT:
 
 https://ohwr.org/cern_ohl_s_v2.txt
