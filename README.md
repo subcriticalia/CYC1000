@@ -44,6 +44,8 @@ The ATLAS I/O BOARD is also in the open hardware database oshwlab:
 
 https://oshwlab.com/subcritical/carrier_io_board_atlas_mini_copy#P3
 
+Atlas I/O Board is the first board that uses actively K1 & L1 signals, in order to bring USB into ATLAS.
+[![Atlas I/O Board](https://github.com/AtlasFPGA/CYC1000/blob/main/FOTOS/TheSonders_USBKeyboard_VIC20.png)](https://www.youtube.com/shorts/MELJpN_zPD8)
 
 # PROYECTO ATLAS
 
